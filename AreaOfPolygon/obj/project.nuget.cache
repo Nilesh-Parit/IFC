@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "dgSpecHash": "YevenpbC7YQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\unnati.kurekar\\source\\repos\\AreaOfPolygon\\AreaOfPolygon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.database.managedesent\\2.0.3\\microsoft.database.managedesent.2.0.3.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.1\\microsoft.extensions.configuration.2.1.1.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.1\\microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.1\\microsoft.extensions.configuration.binder.2.1.1.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.extensions.logging\\2.1.1\\microsoft.extensions.logging.2.1.1.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.extensions.options\\2.1.1\\microsoft.extensions.options.2.1.1.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.1\\microsoft.extensions.primitives.2.1.1.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\tekla.common.geometry\\4.6.2\\tekla.common.geometry.4.6.2.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.common\\6.0.445\\xbim.common.6.0.445.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.essentials\\6.0.445\\xbim.essentials.6.0.445.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.geometry\\5.1.437\\xbim.geometry.5.1.437.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.geometry.engine.interop\\5.1.437\\xbim.geometry.engine.interop.5.1.437.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.ifc\\6.0.445\\xbim.ifc.6.0.445.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.ifc2x3\\6.0.445\\xbim.ifc2x3.6.0.445.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.ifc4\\6.0.445\\xbim.ifc4.6.0.445.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.ifc4x3\\6.0.445\\xbim.ifc4x3.6.0.445.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.io.esent\\6.0.445\\xbim.io.esent.6.0.445.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.io.memorymodel\\6.0.445\\xbim.io.memorymodel.6.0.445.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.modelgeometry.scene\\5.1.437\\xbim.modelgeometry.scene.5.1.437.nupkg.sha512",
+    "C:\\Users\\unnati.kurekar\\.nuget\\packages\\xbim.tessellator\\6.0.445\\xbim.tessellator.6.0.445.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Xbim.Geometry.Engine.Interop 5.1.437 depends on Xbim.Tessellator (>= 5.1.314) but Xbim.Tessellator 5.1.314 was not found. An approximate best match of Xbim.Tessellator 5.1.323 was resolved.",
+      "libraryId": "Xbim.Tessellator",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Xbim.Geometry.Engine.Interop 5.1.437' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Xbim.Geometry.Engine.Interop",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Xbim.ModelGeometry.Scene 5.1.437' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Xbim.ModelGeometry.Scene",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
