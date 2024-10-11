@@ -132,7 +132,22 @@ When we run the project, the entrypoint is `Startup()` in `BIMDCRIFCApp -> App.x
    - Calls `GetProposalInformation()` → Retrieves a list for `ProposalInformationDataGrid`.
 
 --------------------------------------------------------------------------------
-### Single DLL Debug (DLL - AllowableOpeningsOnExteriorWalls)
-------------------------------------------------------------
+###Single DLL Debug (DLL - AllowableOpeningsOnExteriorWalls)
+---------------------------------------------------------
 ->Add id of Dll in grplist in MainWindow.xaml.cs ->GeneratedRuleTree().
-->
+*PrepareRuleTree() in MainWindow.xaml.cs
+->GeneratedRuleTree()
+		->PopulatedProposalRuleTree(GetActivationFilePath(),GetModel(), RuleTree flag,OutputBlock, ref cmpToShow, grplist)
+						parameters -> GetActivationFilePath() ->consist of listModelFilePath -> CM(pass Model file path in dataproposal folder),BM, BS, BA( other 3 empty)
+								   ->GetModel() -> return modelType -> CM- coordinated, BM- MEP, BS- Site, BA- Archetectural
+			|-Instance of ClsRuleDB initiated -> gives ObjRuleMaster, ObjRuleFile
+			|-JRuleSet ->GetRuleSetInfo() ->GetRuleSetNode() ->RuleSet ->give Name,Id, Version is SetNotDefinedToNullValue
+			|-IClsProject ->GetAppId(), IproposalService(), ProjectStatus, RuleSetName
+			|-ClsRuleTree
+			|-ClsCalculatedProposedValues ->IECCService, XBIMHandler, ObjPropoalDB, OBJPeoposedParameter
+										|-CalculatedProposedValue.GetPlots() -> GetPlot() ->GetPlots()
+																						  ->GetRoads() -> GetRoad(), GetHighway()
+																			 -> GetBuilding ->GetBuildingPointSlab() ->GetlevelObject(), GetElevation()(ShellPoints)
+																							->GetStructures() ->GetlevelObject(), GetElevation()(ShellPoints)
+
+-> GetProposalInformation() ->generate Proposal Details on UI
