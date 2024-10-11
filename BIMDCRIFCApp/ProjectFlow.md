@@ -124,12 +124,11 @@ When we run the project, the entrypoint is `Startup()` in `BIMDCRIFCApp -> App.x
    Calls `LoadModelInitiated()`.
    
 4. **OnContentRendering()**  
-   Calls `LoadModelAsync()` → Starts loading models on the application.
-   
-5. **PrepareRuleTree_Click()**
-   - Calls `PrepareRuleTree()`
-   - Calls `GenerateRuleTree()` → Generates the rule tree on the application.
-   - Calls `GetProposalInformation()` → Retrieves a list for `ProposalInformationDataGrid`.
-
+   Calls `LoadModelAsync()` → Starts loading models on the application by using DoEvent()
+   Calls `PrepareRuleTree_Click()`
+         - Calls `PrepareRuleTree()`
+         - Calls `GenerateRuleTree()` → Generates the rule tree on the application.
+         - Calls `GetProposalInformation()` → Retrieves a list for `ProposalInformationDataGrid`.
+  
 --------------------------------------------------------------------------------
 
