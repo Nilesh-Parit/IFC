@@ -132,10 +132,10 @@ When we run the project, the entrypoint is `Startup()` in `BIMDCRIFCApp -> App.x
    - Calls `GetProposalInformation()` → Retrieves a list for `ProposalInformationDataGrid`.
 
 --------------------------------------------------------------------------------
-###Single DLL Debug (DLL - AllowableOpeningsOnExteriorWalls)
+Single DLL Debug (DLL - AllowableOpeningsOnExteriorWalls)
 ---------------------------------------------------------
 ->Add id of Dll in grplist in MainWindow.xaml.cs ->GeneratedRuleTree().
-*PrepareRuleTree() in MainWindow.xaml.cs
+PrepareRuleTree() in MainWindow.xaml.cs
 ->GeneratedRuleTree()
 		->PopulatedProposalRuleTree(GetActivationFilePath(),GetModel(), RuleTree flag,OutputBlock, ref cmpToShow, grplist)
 						parameters -> GetActivationFilePath() ->consist of listModelFilePath -> CM(pass Model file path in dataproposal folder),BM, BS, BA( other 3 empty)
