@@ -114,7 +114,7 @@ When we run the project, the entrypoint is `Startup()` in `BIMDCRIFCApp -> App.x
 
 1. **MainWindow()**
    - Calls `InitialiseComponent()`
-   - Calls `InitialiseSprockets()`
+   - Calls `InitialiseSprockets()` ->open UI Application
    - `ViewHandler.CanvasColorSet()`
    
 2. **CheckRuleObject()**
@@ -123,9 +123,10 @@ When we run the project, the entrypoint is `Startup()` in `BIMDCRIFCApp -> App.x
 3. **LoadInputFromDataXML()**  
    Calls `LoadModelInitiated()`.
    
-4. **OnContentRendering()**  
-   Calls `LoadModelAsync()` → Starts loading models on the application by using DoEvent()
-   Calls `PrepareRuleTree_Click()`
+4. **OnContentRendering()**  -> Initialise PythonEngine and BeginAllowThread on it.
+  - Calls `LoadModelAsync()` → Starts loading models on the application by using DoEvent()
+   
+  - Calls `PrepareRuleTree_Click()`
          - Calls `PrepareRuleTree()`
          - Calls `GenerateRuleTree()` → Generates the rule tree on the application.
          - Calls `GetProposalInformation()` → Retrieves a list for `ProposalInformationDataGrid`.
